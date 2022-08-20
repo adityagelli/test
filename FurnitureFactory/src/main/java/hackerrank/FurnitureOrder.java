@@ -52,7 +52,6 @@ public class FurnitureOrder implements FurnitureOrderInterface {
     }
 
     public float getTypeCost(Furniture type) {
-        // TODO: Complete the method
         if(furnitureItems.containsKey(type)) {
         	return furnitureItems.get(type) * type.cost();
         }
