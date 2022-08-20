@@ -6,6 +6,7 @@ public class FurnitureOrder implements FurnitureOrderInterface {
     /**
      * TODO: Create a map of Furniture items to order quantities
      */
+    private final HashMap<Furniture, Integer> furnitureItems;
 
     /**
      * Initialize a new mapping of Furniture types to order quantities.
